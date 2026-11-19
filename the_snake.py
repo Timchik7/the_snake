@@ -30,7 +30,7 @@ ALL_CELLS = {
 
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Змейка")
+pygame.display.set_caption('Змейка')
 clock = pygame.time.Clock()
 
 
@@ -201,5 +201,5 @@ def main():
         pygame.display.update()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
